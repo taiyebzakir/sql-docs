@@ -45,7 +45,7 @@ After a distribution database in the AG is configured based on the steps describ
 - Adding or removing nodes to existing distribution database AG.
 - A distributor may have multiple distribution databases. Each distribution database can be in its own AG and can be not in any AG. Multiple distribution databases can share an AG.
 - Publisher and distributor need to be on separate SQL Server instances.
-- If the listener for the availability group hosting the distribution database is configured to use a non-default port, then its required to setup an alias for the listener and the non-default port.
+- If the listener for the availability group hosting the distribution database is configured to use a non-default port, then its required to setup an alias for the listener and the non-default port on all the Publisher and Distribtor nodes.
 
 ## Limitations or exclusions
 
