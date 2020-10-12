@@ -28,6 +28,7 @@ monikerRange: "=azuresqldb-mi-current||>=sql-server-2016||=sqlallproducts-allver
   
 > [!NOTE]  
 >  Beginning with [!INCLUDE[firstref_longhorn](../../includes/firstref-longhorn-md.md)] and [!INCLUDE[wiprlhlong](../../includes/wiprlhlong-md.md)], 64-bit versions of the Windows Synchronization Manager cannot detect 32-bit subscriptions.  
+Windows sync manager is supported only on machines with single SQL instance. 
   
 ### To enable the synchronization of pull subscriptions with Windows Synchronization Manager  
   
